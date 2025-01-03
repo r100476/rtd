@@ -9,16 +9,10 @@ version = release = '4.16'
 # -- General configuration ------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-exclude_patterns = [
-    '_build',
-    'Thumbs.db',
-    '.DS_Store',
-]
 extensions = []
 language = 'en'
 master_doc = 'index'
 pygments_style = 'sphinx'
-source_suffix = '.rst'
 templates_path = ['_templates']
 
 # -- Options for HTML output ----------------------------------------------
